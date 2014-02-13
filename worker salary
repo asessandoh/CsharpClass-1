@@ -1,0 +1,45 @@
+namespace hw2
+{
+    public class person
+    {
+        public string name;
+        public string age;
+
+        public person()
+        {
+            name = "Alex";
+            age = "20";
+        }
+
+    }
+    public class salaryworkers: person
+    {
+        private int basesalary;
+        private double wpaycheck;
+        private double hours = 1;
+
+            private double hw;
+            public double salary2()
+            {
+                hw = 11.00 * hours;
+                return hw;
+            }
+
+        public double salary()
+        {
+            basesalary = 1000;
+            wpaycheck = basesalary + 4.50 * hours;
+            return wpaycheck;
+        }
+
+      
+    }
+   
+    class salarytest
+    {
+        static void Main(string[] args)
+        {
+             
+            
+
+        }
